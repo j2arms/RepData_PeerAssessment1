@@ -259,7 +259,7 @@ The peak is close at 8.35am in the morning. One hypothesiscould be that this is 
 
 <h2>Imputing missing values</h2>
 
-<p>There are some missing values which for the step variable. Those are now imputed using the average of the missing time intervall on the other days.  </p>
+<p>There are some missing values which for the step variable. Those are now imputed using the average of the missing time intervall on the other days. </p>
 
 <pre><code class="r">activityC &lt;- activity
 no_of_na &lt;- nrow(activity[complete.cases(activityC) == FALSE,]) ## just needed for verification

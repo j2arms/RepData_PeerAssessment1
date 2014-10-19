@@ -84,7 +84,7 @@ timeSeries[max(timeSeries$average) == timeSeries$average,]
 
 
 ## Imputing missing values
-There are some missing values which for the step variable. Those are now imputed using the average of the missing time intervall on the other days.  
+There are some missing values which for the step variable. Those are now imputed using the average of the missing time intervall on the other days. 
 
 ```r
 activityC <- activity
